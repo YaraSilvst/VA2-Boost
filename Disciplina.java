@@ -12,8 +12,7 @@ public class Disciplina {
   }
 
   void ExibirRelatorioDisciplina() {
-    System.out.println("Disciplina:" + nome + "\nNome do professor:" + professor.nome + "\nNota final:");
-    RetornarNotaFinal();
+    System.out.println("Disciplina: " + nome + "\nNome do professor: " + professor.nome + "\nNota final: " + NotaFinal);
   }
 
   float RetornarNotaFinal() {

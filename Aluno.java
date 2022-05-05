@@ -11,10 +11,10 @@ public class Aluno {
 
   void ExibirRelatorio() {
     System.out.println(
-      "Nome do aluno:" + nome +
-      "\nCurso do aluno:" + curso.nome +
-      "\nAprovado?:" + (curso.EstaAprovado()? "Sim" : "Não") +
-      "\nMatricula:" + matricula
+      "Nome do aluno: " + nome +
+      "\nCurso do aluno: " + curso.nome +
+      "\nAprovado?: " + (curso.EstaAprovado()? "Sim" : "Não") +
+      "\nMatricula: " + matricula
     );
   }
 }
