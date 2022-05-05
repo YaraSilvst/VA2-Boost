@@ -25,8 +25,8 @@ public class Main {
                        aluno02.curso.NotaPorDisciplina(2)
                       );
 
-    //Agronomia.ExibirRelatorioDisciplina();
-    //Enfermagem.ExibirRelatorioDisciplina();  
+    Fitopatologia.ExibirRelatorioDisciplina();
+    FisicaGeral.ExibirRelatorioDisciplina();  
 
     aluno01.ExibirRelatorio();
     aluno02.ExibirRelatorio();
